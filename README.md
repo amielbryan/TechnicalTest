@@ -20,13 +20,13 @@ In the project
           passwordset:false,
           remember: false
      this is to get the data and to validate the data using boolean true or false.
+     In the validateEmail, I declare a regex email form to validate if the user input is an email format aside
+     from this I check if it is null. Same in the password checking if it is null and if it's 6-12 length. I also
+     save the user in the async to remember the date saved; email and password.
      
-     In the validateEmail, I declare a regex email form to validate the user input if it is email format 
-     emailform = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/i 
-     aside from this I check if it is null.
      
-     Same in the password, checkingi if null and if its 6-12 length
      
-     I also save user in the async to remember the data email and password.
+     
+     
      
      
